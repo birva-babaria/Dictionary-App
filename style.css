@@ -1,0 +1,109 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: thistle;
+}
+
+.container {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 70px 20px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px rgba(41, 0, 0, 0.4);
+}
+
+.searchbox {
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    margin: auto auto;
+    padding: 10px;
+}
+
+#search-btn {
+    float: inline-end;
+    padding: 3px 10px;
+    width: 25%;
+    border: none;
+    background-color: thistle;
+    color: rgb(104, 104, 104);
+    border-radius: 3px;
+}
+
+#search-btn:active {
+    transform: translateY(2px);
+}
+
+#inp-word {
+    background-color: inherit;
+    width: 70%;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid thistle;
+}
+
+.definitionbox {
+    padding-top: 20px;
+    margin: auto auto;
+    width: 500px;
+}
+
+.word-section {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.word {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.word-class {
+    font-style: italic;
+    color: #555;
+}
+
+.pronunciation {
+    font-style: italic;
+    color: #888;
+}
+
+.definition {
+    font-size: 16px;
+    color: #333;
+}
+
+.example {
+    font-size: 15px;
+    color: #666;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-left: 5px solid thistle;
+}
+
+.example strong {
+    color: #333;
+}
+
+.error {
+    font-size: 15px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
